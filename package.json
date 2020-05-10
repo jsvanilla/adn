@@ -11,8 +11,9 @@
     "lint": "standard",
     "linterfix": "standard --fix",
     "test": "jest --detectOpenHandles",
-    "coverage": "jest --coverage",
-    "test:watch": "jest --watch --runInBand --detectOpenHandles"
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch --runInBand --detectOpenHandles",
+    "test:update": "jest --updateSnapshot"
   },
   "author": "JaguarJS",
   "license": "MIT",
