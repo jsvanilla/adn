@@ -3,7 +3,7 @@ const supertest = require('supertest')
 
 function testServer(route){
   const app = express()
-  route(app)
+  // route(app)
   return supertest(app)
 }
 

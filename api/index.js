@@ -18,5 +18,5 @@ app.use('/mutation', geneticMutation) // POST /mutation
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc))
 
 app.listen(config.api.port, () => {
-  console.log('Api escuchando en el puerto ', config.api.port)
+  console.log(`Api escuchando en el puerto ${config.api.port}`)
 })
